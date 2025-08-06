@@ -10,11 +10,16 @@ This project presents a deep learning approach for binary classification of skin
 - Augmentation: Random rotations, flips, zooms
 - Evaluation Metrics: Accuracy (0.8907), Precision (0.7700), Recall (0.6278), F1 Score (0.6917)
 
-# Content
-- `skin_cancer_diagnosis.py`: Python script containing full pipeline including:
+## Content
+`main.py`: Python script containing full pipeline including:
   - Dataset loading and label mapping
   - Preprocessing with DWT (Discrete Wavelet Transform)
   - Data augmentation
   - EfficientNetB3 model training and evaluation
-
+`Execution.ipynb`:
+  - Difference between skin lesion images before and after preprocessing
+  - Details about epochs
+  - Accuracy curve and Loss curve
+  - Evaluation Metrics
+  - Confusion matrix along with prediction examples
 
